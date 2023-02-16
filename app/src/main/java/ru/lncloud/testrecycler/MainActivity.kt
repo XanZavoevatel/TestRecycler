@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 //            removeDuration = 500
 //            addDuration = 500
 //        }
-        
+
         // здесь для анимации добавления элемента используется доб библиотека
         activityMainBinding.add.setOnClickListener {
             adapter.addContent(DataContent("РХПГ"))
